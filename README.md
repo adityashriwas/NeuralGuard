@@ -126,7 +126,7 @@ In short, **NeuralGuard** combines **deep learning, modern DevOps, and scalable 
 
 ## 🧩 System Architecture  
 
-![alt text](image.png)
+![alt text](image.png.png)
 
 ---
 
