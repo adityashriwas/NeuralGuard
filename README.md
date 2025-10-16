@@ -1,9 +1,9 @@
-# 🧠 Neural Nexus – Transformer-Based End-to-End Web Application Firewall (WAF) Pipeline  
+# Neural Nexus – Transformer-Based End-to-End Web Application Firewall (WAF) Pipeline  
 **Smart India Hackathon 2025 | Problem Statement ID: SIH25172 | Theme: Blockchain & Cybersecurity**  
 
 ---
 
-## 🚀 Overview  
+## Overview  
 
 **Neural Nexus** introduces **NeuralGuard**, a **Transformer-based Web Application Firewall (WAF)** built to deliver **real-time, adaptive, and zero-day threat protection** for modern web infrastructures.  
 
@@ -11,7 +11,7 @@ Unlike traditional signature-based WAFs that rely on static rules, NeuralGuard l
 
 ---
 
-## 🧩 Problem Statement  
+## Problem Statement  
 
 Traditional WAFs struggle to detect **zero-day exploits**, **evasive attacks**, and **contextual anomalies** in HTTP traffic.  
 The challenge is to design an **end-to-end intelligent WAF pipeline** that:  
@@ -22,7 +22,7 @@ The challenge is to design an **end-to-end intelligent WAF pipeline** that:
 
 ---
 
-## 💡 Proposed Solution – NeuralGuard Architecture  
+## Proposed Solution – NeuralGuard Architecture  
 
 NeuralGuard employs a **sidecar architecture** integrated with **Nginx** for non-blocking traffic inspection and decision-making:  
 
@@ -45,12 +45,12 @@ NeuralGuard employs a **sidecar architecture** integrated with **Nginx** for non
 
 ---
 
-## 🧭 Design Approach & Tooling Rationale  
+## Design Approach & Tooling Rationale  
 
 The **NeuralGuard** project was built with a clear goal — to achieve **real-time, self-learning web application security** without the trade-offs of traditional WAF systems.  
 Every technology and architectural decision was made with **performance, scalability, and autonomy** in mind.  
 
-### 🔧 Why These Tools?
+### Why These Tools?
 
 | Component | Technology | Reason for Selection |
 |------------|-------------|----------------------|
@@ -66,7 +66,7 @@ Every technology and architectural decision was made with **performance, scalabi
 
 ---
 
-### 🧠 Project Approach  
+### Project Approach  
 
 The approach to NeuralGuard is **pipeline-driven and incremental**, built around continuous feedback and adaptation rather than static rule enforcement.
 
@@ -95,7 +95,7 @@ In short, **NeuralGuard** combines **deep learning, modern DevOps, and scalable 
 
 
 ---
-## 🧠 Innovation Highlights  
+## Innovation Highlights  
 
 | Feature | Description |
 |----------|-------------|
@@ -106,7 +106,7 @@ In short, **NeuralGuard** combines **deep learning, modern DevOps, and scalable 
 
 ---
 
-## ⚙️ Technical Approach  
+## Technical Approach  
 
 ### **Core Technologies**
 - **Traffic Layer:** Nginx (reverse proxy, SSL/TLS termination, load balancing).  
@@ -124,13 +124,13 @@ In short, **NeuralGuard** combines **deep learning, modern DevOps, and scalable 
 
 ---
 
-## 🧩 System Architecture  
+## System Architecture  
 
 ![alt text](image.png.png)
 
 ---
 
-## 📊 Feasibility & Viability  
+## Feasibility & Viability  
 
 - **Mature Stack:** Built on stable open-source technologies (Nginx, PyTorch, Kubernetes).  
 - **Scalable Design:** Modular microservices enable independent scaling and upgrades.  
@@ -139,7 +139,7 @@ In short, **NeuralGuard** combines **deep learning, modern DevOps, and scalable 
 
 ---
 
-## ⚠️ Challenges & Risk Mitigation  
+## Challenges & Risk Mitigation  
 
 | Challenge | Risk | Mitigation |
 |------------|------|------------|
@@ -149,7 +149,7 @@ In short, **NeuralGuard** combines **deep learning, modern DevOps, and scalable 
 
 ---
 
-## 💥 Impacts & Benefits  
+## Impacts & Benefits  
 
 ### **Technological**
 - Detects **zero-day and obfuscated threats** in real time.  
@@ -172,7 +172,7 @@ In short, **NeuralGuard** combines **deep learning, modern DevOps, and scalable 
 
 ---
 
-## 🔬 Research & References  
+## Research & References  
 
 | Paper/Source | Key Focus |
 |---------------|------------|
@@ -187,10 +187,10 @@ In short, **NeuralGuard** combines **deep learning, modern DevOps, and scalable 
 
 ### **Dataset**
 A curated dataset of **1,133,280 normalized benign HTTP requests** from three distinct applications has been generated, validated, and is ready for model training.
-
+- [Dataset drive link](https://drive.google.com/drive/folders/1YYtSE6OLwqJ8p56xVyTscMsMH24oWwqL?usp=sharing)
 ---
 
-## 🧰 Repository Structure  
+## Repository Structure  
 ```
 NeuralGuard/
 ├── src/
@@ -215,7 +215,7 @@ NeuralGuard/
 
 ---
 
-## ⚡ Getting Started  
+## Getting Started  
 
 ### **Prerequisites**
 - Docker & Kubernetes cluster  
@@ -243,7 +243,7 @@ uvicorn src.waf_sidecar.main:app --host 0.0.0.0 --port 8080
 
 ---
 
-## 🌍 Conclusion  
+## Conclusion  
 
 The **NeuralGuard** project represents a forward leap in the evolution of Web Application Firewalls — shifting from static, rule-based defense to **adaptive, learning-based security intelligence**.  
 By merging the strengths of **Transformer architectures**, **sidecar-based design**, and **continuous learning pipelines**, Neural Nexus delivers a WAF solution that is:  
@@ -257,7 +257,7 @@ Our goal isn’t just to stop attacks — it’s to build **AI-driven security s
 
 ---
 
-## 🤝 Contribution  
+## Contribution  
 
 We welcome contributions from developers, researchers, and cybersecurity experts who share our vision of intelligent web defense.  
 
