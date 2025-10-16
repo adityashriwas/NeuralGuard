@@ -3,6 +3,11 @@
 
 ---
 
+### **Dataset**
+A curated dataset of **1,133,280 normalized benign HTTP requests** from three distinct applications has been generated, validated, and is ready for model training.
+- [Dataset drive link](https://drive.google.com/drive/folders/1YYtSE6OLwqJ8p56xVyTscMsMH24oWwqL?usp=sharing)
+---
+
 ## Overview  
 
 **Neural Nexus** introduces **NeuralGuard**, a **Transformer-based Web Application Firewall (WAF)** built to deliver **real-time, adaptive, and zero-day threat protection** for modern web infrastructures.  
